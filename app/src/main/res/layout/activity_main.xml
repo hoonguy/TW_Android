@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jh.app.twapp.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ID"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:mem_id="@+mem_id/edt_id"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:hint="Email Address"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Password"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:mem_id="@+mem_id/edt_pw"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:mem_id="@+mem_id/btn_login"
+            android:text="Log In"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:mem_id="@+mem_id/btn_forgot_idpw"
+            android:text="Forgot ID/PW"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Log in from...."
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:mem_id="@+mem_id/btn_facebook"
+            android:text="Facebook"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:mem_id="@+mem_id/btn_google"
+            android:text="Google"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:mem_id="@+mem_id/btn_signin"
+        android:text="Sign In new"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
