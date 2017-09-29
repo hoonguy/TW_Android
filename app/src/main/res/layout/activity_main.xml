@@ -23,7 +23,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content" />
         <EditText
-            android:mem_id="@+mem_id/edt_id"
+            android:id="@+id/edt_id"
             android:textAlignment="center"
             android:textSize="16dp"
             android:hint="Email Address"
@@ -50,7 +50,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content" />
         <EditText
-            android:mem_id="@+mem_id/edt_pw"
+            android:id="@+id/edt_pw"
             android:textAlignment="center"
             android:textSize="16dp"
             android:layout_marginTop="5dp"
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
-            android:mem_id="@+mem_id/btn_login"
+            android:id="@+id/btn_login"
             android:text="Log In"
             android:textSize="16dp"
             android:textAlignment="center"
@@ -75,7 +75,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content" />
         <Button
-            android:mem_id="@+mem_id/btn_forgot_idpw"
+            android:id="@+id/btn_forgot_idpw"
             android:text="Forgot ID/PW"
             android:textSize="16dp"
             android:textAlignment="center"
@@ -98,7 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
-            android:mem_id="@+mem_id/btn_facebook"
+            android:id="@+id/btn_facebook"
             android:text="Facebook"
             android:textSize="16dp"
             android:textAlignment="center"
@@ -108,7 +108,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content" />
         <Button
-            android:mem_id="@+mem_id/btn_google"
+            android:id="@+id/btn_google"
             android:text="Google"
             android:textSize="16dp"
             android:textAlignment="center"
@@ -119,7 +119,7 @@
     </LinearLayout>
 
     <Button
-        android:mem_id="@+mem_id/btn_signin"
+        android:id="@+id/btn_signin"
         android:text="Sign In new"
         android:textSize="16dp"
         android:textAlignment="center"
